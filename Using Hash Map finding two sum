@@ -1,0 +1,16 @@
+import java.util.HashMap;
+public class Twosum {
+public void main(String[]args) {
+int []arr ={2,9,11,15};
+int Target = 9;
+HashMap<Integer,Integer> map = new HashMap<> ();
+for(i=0;i<arr.leng;i++){
+int Complement = target- arr[i];
+if(map.containsKey(Commplement)) (
+System.out.println("Indices" +map.get(Complement)+" " +i);
+return;}
+map.put(arr[i],i);
+}
+System.out.println("Pair is not Found");
+}
+}

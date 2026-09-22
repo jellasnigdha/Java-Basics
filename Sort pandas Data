@@ -1,0 +1,12 @@
+import pandas as pd
+
+data = {
+    "Name": ["A", "B", "C"],
+    "Marks": [75, 95, 85]
+}
+
+df = pd.DataFrame(data)
+
+result = df.sort_values("Marks")
+
+print(result)
